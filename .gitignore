@@ -17,6 +17,7 @@ out/
 !**/src/test/**/out/
 src/main/resources/application-oauth.properties
 src/main/resources/application-real-db.properties
+/scripts/deploy.sh
 
 ### Eclipse ###
 .apt_generated
