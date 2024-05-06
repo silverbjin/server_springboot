@@ -4,7 +4,7 @@ import com.jojoldu.boot.springboot.config.auth.LoginUser;
 import com.jojoldu.boot.springboot.config.auth.dto.SessionUser;
 import com.jojoldu.boot.springboot.service.posts.PostsService;
 import com.jojoldu.boot.springboot.web.dto.PostsResponseDto;
-import com.sun.glass.ui.Accessible;
+//import com.sun.glass.ui.Accessible;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -18,7 +18,7 @@ import javax.servlet.http.HttpSession;
 public class IndexController {
 
     private final PostsService postsService;
-    private final HttpSession httpSession;
+//    private final HttpSession httpSession;
 
 //    @GetMapping("/")
 //    public String index() {
